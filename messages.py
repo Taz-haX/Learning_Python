@@ -1,0 +1,7 @@
+import Main
+
+Main.hello()
+
+
+
+
