@@ -19,10 +19,8 @@ class Item:
         return ((self.podium / self.race)*100)
 
     def apply_discount(self):
-        self.podium = self.podium * Item.pay_rate
+        self.podium = self.podium * self.pay_rate
         return self.podium
-
-
 
 item1 = Item('Hammertime', 300, 103)
 
@@ -47,3 +45,9 @@ item2 = Item('verr')
 item2.name = 'Stappen'
 item2.price = 1
 item2.quantity = 3
+
+item2.podium = 69
+
+item2.pay_rate = 0.6
+
+print(item2.apply_discount())
