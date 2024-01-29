@@ -37,6 +37,12 @@ for i in Item.all:
     print(i.nama)
 print(Item.all)
 
+print(item3.nama)
+
+item3.nama = 'Pagabose'
+print(item3.nama)
+print(Item.all)
+
 # item1 = Item('Hammertime', 300, 103)
 #
 # item1.name = 'Pajn'
