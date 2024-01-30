@@ -42,6 +42,12 @@ print(item3.nama)
 item3.nama = 'Pagabose'
 print(item3.nama)
 print(Item.all)
+print(item2.podiums)
+item2.podiums = 20
+
+print(item2.podiums)
+
+print(Item.all)
 
 # item1 = Item('Hammertime', 300, 103)
 #
