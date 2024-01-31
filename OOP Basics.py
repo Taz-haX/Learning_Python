@@ -33,19 +33,21 @@ item3 = Item('Vets', 300, 50)
 item4 = Item('Shaal', 150, 20)
 item5 = Item('Lonso', 350, 40)
 
-for i in Item.all:
-    print(i.nama)
-print(Item.all)
+# for i in Item.all:
+#     print(i.nama)
+# print(Item.all)
+#
+# print(item3.nama)
+#
+# item3.nama = 'Pagabose'
+# print(item3.nama)
+# print(Item.all)
+# print(item2.podiums)
+# item2.podiums = 20
+#
+# print(item2.podiums)
 
-print(item3.nama)
 
-item3.nama = 'Pagabose'
-print(item3.nama)
-print(Item.all)
-print(item2.podiums)
-item2.podiums = 20
-
-print(item2.podiums)
 
 print(Item.all)
 
