@@ -32,6 +32,7 @@ item2 = Item('Hammer', 300, 100)
 item3 = Item('Vets', 300, 50)
 item4 = Item('Shaal', 150, 20)
 item5 = Item('Lonso', 350, 40)
+item6 = Item('shakala')
 
 # for i in Item.all:
 #     print(i.nama)
@@ -47,9 +48,11 @@ item5 = Item('Lonso', 350, 40)
 #
 # print(item2.podiums)
 
-
-
 print(Item.all)
+
+item6.podiums = 70
+
+print((Item.all))
 
 # item1 = Item('Hammertime', 300, 103)
 #
