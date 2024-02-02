@@ -51,6 +51,7 @@ item6 = Item('shakala')
 print(Item.all)
 
 item6.podiums = 70
+item6.races = 90
 
 print((Item.all))
 
